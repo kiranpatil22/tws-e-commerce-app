@@ -40,7 +40,7 @@ module "eks" {
       max_size     = 3
       desired_size = 2
 
-      instance_types = ["t2.large"]
+      instance_types = ["m7i-flex.large"]
       capacity_type  = "SPOT"
 
       disk_size = 35 
